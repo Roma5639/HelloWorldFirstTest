@@ -172,11 +172,8 @@ public class Tasks {
         String str = "Get a modern feel with a smudge-resistant " +
                 "only for $2.50, you can finish now";
         String[] words = str.split(" ");
-        //System.out.println(Arrays.toString(words));
         for (int i = 0; i < words.length; i++) {
             if (words[i].equalsIgnoreCase("YOU")) {
-                // check array from the first one and when it is "b" starts
-                // to print the string value till "e"
                 System.out.println(words[i + 1].toUpperCase(Locale.ROOT));
 
             }
